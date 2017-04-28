@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  text-align: left;
+  width: 1000px;
+  margin: 0 auto;
+}
+.one {
+  height: 210px;
+  display: flex;
+}
+
+.red1 {
+  background-color: #cf021a;
+  width: 33.333%;
+  height: 170px;
+  margin: 20px 10px 20px 20px;
+}
+
+.blue1 {
+  background-color: #4a90e0;
+  width: 33.333%;
+  height: 170px;
+  margin: 20px 10px 20px 10px;
+}
+
+.gray1 {
+  background-color: #4a4a4a;
+  width: 33.333%;
+  height: 170px;
+  margin: 20px 20px 20px 10px;
+}
+
+.two {
+  margin: 20px 20px;
+  font-size: 1.78em;
+}
+
+.three {
+  display: flex;
+  height: 390px;
+}
+
+.red3 {
+  background-color: #cf021a;
+  width: 33.333%;
+  height: 350px;
+  margin: 20px 0 20px 20px;
+}
+
+.blue3 {
+  background-color: #4a90e0;
+  width: 66.667%;
+  height: 350px;
+  margin: 20px 20px 20px 0;
+}
+
+.four {
+  display: flex;
+  height: 210px;
+}
+
+
+.blue4 {
+  background-color: #4a90e0;
+  width: 71%;
+  height: 170px;
+  margin: 20px 0 20px 20px;
+}
+
+.red4 {
+  background-color: #cf021a;
+  width: 4%;
+  height: 170px;
+  margin: 20px 0;
+}
+
+.gray4 {
+  background-color: #4a4a4a;
+  width: 25%;
+  height: 170px;
+  margin: 20px 0;
+}
+
+.red5 {
+  background-color: #cf021a;
+  width: 4%;
+  height: 170px;
+  margin: 20px 20px 20px 0;
+}
