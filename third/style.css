@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+}
+
+header {
+  background: #333333;
+  color: white;
+  height: 80px;
+  width: 1000px;
+  padding-left: 40px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.apple {
+  margin-right: 50px;
+}
+
+.body {
+  width: 1000px;
+  display: flex;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.left {
+  margin: 30px;
+}
+
+.right {
+  margin: 30px;
+}
+
+.box {
+  width: 450px;
+  height: 400px;
+  background: #d6d6d6;
+}
+
+footer {
+  background: #333333;
+  height: 80px;
+  width: 1000px;
+}
