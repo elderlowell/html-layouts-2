@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #d6d6d6;
+  text-align: center;
+}
+
+.container {
+  text-align: left;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.top {
+  margin: 20px 40px;
+  background: white;
+  padding: 30px;
+  font-size: 1.3em;
+}
+
+.button1 {
+  background: #cf021a;
+  color: white;
+  margin: 40px 10px 0 0;
+  height: 50px;
+  width: 125px;
+  font-size: 1.5em;
+}
+
+.button2 {
+  background: #4a90e0;
+  color: white;
+  height: 50px;
+  width: 125px;
+  font-size: 1.5em;
+  margin: 40px 0 0 0;
+}
+
+.bottom {
+  margin: 40px 40px;
+  background: white;
+  padding: 30px;
+  font-size: 1.3em;
+}
+
+.image {
+  height: 400px;
+  background: #333333;
+  margin: 0 0 40px 0;
+  font-size: 1.7em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #333333;
+  height: 80px;
+  width: 1000px;
+  position: fixed;
+  color: white;
+  padding-right: 50px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.apple {
+  margin-right: 30px;
+}
